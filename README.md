@@ -23,7 +23,7 @@ The vesting schedule is defined by 3 parameters (in seconds):
 
 :warning: In this example, 1 month = 30 days
 
-For a 3 month lockup after 2021.02.05, 3 months vesting, and 100 FCL:
+For 100 FCL, 3 month lockup after 2021.02.25, 3 months vesting, and a "first monthly tranche" available after cliff:
 * `Start`: `1619395200` (2021.04.26, 2 months after 2021.02.25)
 * `CliffDuration`: `2592000` (30 days, during which the first tranche vests)
 * `Duration`: `10368000` (4 months: vesting + 1)
