@@ -70,7 +70,8 @@ For 100 FCL, 3 month lockup after 2021.02.25, 3 months vesting, and a "first mon
 Uses [Hardhat](https://hardhat.org/), as recommended in OpenZeppelin's [Deploying and interacting](https://docs.openzeppelin.com/learn/deploying-and-interacting) guide.
 
 1. `cp .env.example .env` and adapt
-2. `npx hardhat run scripts/deploy.js --network <rinkeby|mainnet>`
+2. Adapt `scripts/deploy.js`
+3. `npx hardhat run scripts/deploy.js --network <rinkeby|mainnet>`
 
 ## Interacting
 
